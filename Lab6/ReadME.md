@@ -1,0 +1,3 @@
+# Lab 6: Deep Learning for NLP
+
+In this lab, I transitioned from using TF-IDF to implementing a Word2Vec model to generate word embeddings for Yelp reviews. I processed the text data into PyTorch tensors and built a custom deep neural network with three hidden layers to classify the sentiment of the reviews. After training the model, the final accuracy was relatively low. This outcome practically demonstrated that training Word2Vec from scratch on a very small dataset is insufficient for capturing complex semantic meanings, highlighting the importance of using large datasets and pre-trained models in real NLP tasks.
